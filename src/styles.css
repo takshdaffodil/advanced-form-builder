@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(254, 185, 206, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.full-width-input {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
